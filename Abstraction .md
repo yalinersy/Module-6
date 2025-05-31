@@ -47,9 +47,9 @@ class Circle(Shape):
 
 rec=Rectangle()
 cir=Circle()#object created for the class 'Rectangle'
-#object created for the class 'Circle'
-print("Area of a rectangle:", rec.calculate_area()) #call to 'calculate_area' method defined inside the class 'Rectangle'
-print("Area of a circle:", cir.calculate_area()) #call to 'calculate_area' method defined inside the class 'Circle'.
+
+print("Area of a rectangle:", rec.calculate_area())
+print("Area of a circle:", cir.calculate_area())
 ```
 ## Output
 ![image](https://github.com/user-attachments/assets/9a98b2ed-38a1-475f-a9fb-9b8c81f7450a)
